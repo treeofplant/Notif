@@ -179,17 +179,18 @@ Correct.Visible = false
 Correct.Image = "http://www.roblox.com/asset/?id=14364891416"
 Correct.ImageColor3 = Color3.fromRGB(0, 170, 0)
 
-Disclaimer.Name = "Disclaimer"
-Disclaimer.Parent = Design
-Disclaimer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Disclaimer.BackgroundTransparency = 1.000
-Disclaimer.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Disclaimer.BorderSizePixel = 0
-Disclaimer.Position = UDim2.new(0.0251296777, 0, 0.150000006, 0)
-Disclaimer.Size = UDim2.new(0, 37, 0, 41)
-Disclaimer.Visible = false
-Disclaimer.Image = "rbxassetid://14599452294"
-Disclaimer.ImageColor3 = Color3.fromRGB(255, 183, 0)
+local Info = Instance.new("ImageLabel")
+Info.Name = "Disclaimer"
+Info.Parent = Design
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.0178833008, 0, 0.116666667, 0)
+Info.Size = UDim2.new(0, 45, 0, 45)
+Info.Image = "http://www.roblox.com/asset/?id=14364940062"
+Info.ImageColor3 = Color3.fromRGB(255, 170, 0)
+Info.Visible = false
 
 Line.Name = "Line"
 Line.Parent = Design
