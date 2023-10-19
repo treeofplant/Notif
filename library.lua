@@ -1,10 +1,7 @@
 --credits to lightux: https://discord.gg/scripts
 pcall(function()
-if not game.CoreGui:FindFirstChild("GREENVILE EVENTE") then
-local presented = false
-game.CoreGui.ChildAdded:connect(function(ss)
-if ss.Name == "GREENVILE EVENT" and presented == false then
-presented = true
+if game.CoreGui:FindFirstChild("GREENVILE EVENT") then
+
 
 
 ---
@@ -144,9 +141,6 @@ coroutine.wrap(QXBZ_fake_script)()
 ---
 
 
-
-end
-end)
 end
 end)
 
